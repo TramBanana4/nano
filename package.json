@@ -18,9 +18,9 @@
         "revert": "git reset HEAD --hard && git clean -fd"
     },
     "dependencies": {
-        "chemicaljs": "^2.3.1",
+        "chemicaljs": "2.0.2",
         "dreamland": "^0.0.24",
-        "dreamland-router": "https://github.com/mercuryworkshop/dreamland-router",
+        "dreamland-router": "https://codeload.github.com/mercuryworkshop/dreamland-router/tar.gz/4a5bb22dbaa1268159a8e3485200d1d7372483be",
         "express": "^4.19.2",
         "rollup-plugin-typescript2": "^0.36.0",
         "sortablejs": "^1.15.2",
@@ -31,9 +31,13 @@
         "postcss": "^8.4.42",
         "prettier": "^3.3.3",
         "tailwindcss": "^3.4.10",
+        "typescript": "5.5.3",
         "vite": "^5.4.2"
     },
     "engines": {
         "node": ">=20.11.0"
+    },
+    "overrides": {
+        "@mercuryworkshop/scramjet": "1.0.2"
     }
 }

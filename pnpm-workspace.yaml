@@ -1,0 +1,7 @@
+overrides:
+  '@mercuryworkshop/scramjet': 1.0.2
+allowBuilds:
+  '@rubynetwork/rh': true
+  bufferutil: false
+  dreamland-router@https://codeload.github.com/mercuryworkshop/dreamland-router/tar.gz/4a5bb22dbaa1268159a8e3485200d1d7372483be: false
+  esbuild: true
